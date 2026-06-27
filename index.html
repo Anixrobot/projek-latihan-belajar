@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <h1>selamat datang di website belajar saya</h1>
+  <h2>ini adalah halaman utama saya</h2>
+  <p>ini adalah paragraf pertama saya gw lagi ngebuat web belajar gua</p>
+  <hr>
+  <p>ini adalah paragraf kedua gw dari web gw.</p>
+
+  <br>
+  <hr>
+  <br>
+
+  <form action="/kirim-data" method="POST">
+    <h3>Formulir Pendaftaran Tryout Ujian</h3>
+  
+    <div>
+      <label for="namaLengkap">Nama Lengkap:</label>
+      <br>
+      <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Masukkan nama..." required>
+    </div>
+    <br>
+  
+    <div>
+      <label for="emailUser">Email Aktif:</label>
+      <br>
+      <input type="email" id="emailUser" name="emailUser" placeholder="contoh@email.com" required>
+    </div>
+    <br>
+  
+    <div>
+      <label for="kataSandi">Password:</label>
+      <br>
+      <input type="password" id="kataSandi" name="kataSandi" required minlength="8">
+    </div>
+    <br>
+  
+    <div>
+      <p>Pilih Kategori Ujian:</p>
+      <input type="radio" id="saintek" name="kategori" value="Saintek" required>
+      <label for="saintek">Saintek</label>
+      
+      <input type="radio" id="soshum" name="kategori" value="Soshum">
+      <label for="soshum">Soshum</label>
+    </div>
+    <br>
+  
+    <button type="submit">Daftar Sekarang</button>
+  
+  </form>
+  </body>
+</html>
