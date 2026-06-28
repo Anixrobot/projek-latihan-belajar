@@ -3,40 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal simulasi SNPMB 2026</title>
+    <title>Portal Simulasi SNPMB 2026</title>
 </head>
-</html>
+<body> <!-- BUKA BODY DI SINI -->
 
-<header>
-    <h1>pendaaftaran tryout simulasi spmb</h1>
-    <p>selamat datang di portal simulasi spmb 2026</p>
+    <header>
+        <h1>Pendaftaran Tryout Simulasi SNPMB</h1>
+        <p>Selamat datang di portal simulasi SNPMB 2026</p>
+        <hr>
+    </header>
+
+    <main> 
+        <section>
+            <h2>Form Data Peserta</h2>
+            <p>Silakan isi data diri kalian di bawah ini dengan benar.</p>
+            
+            <form action="/daftar" method="post">
+                <!-- Nama Lengkap (Spasi dihapus) -->
+                <label for="namaLengkap">Nama Lengkap:</label>
+                <br>
+                <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Rafie Armansyah" required>
+                <br><br>
+
+                <!-- Tanggal Lahir -->
+                <label for="tglahir">Tanggal Lahir:</label>
+                <br>
+                <input type="date" id="tglahir" name="tglahir" required>
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="rafie.armansyah@example.com" required>
+                <br><br>
+
+                <!-- Password (Ditambah minlength) -->
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Minimal 8 karakter" minlength="8" required>
+                <br><br>
+
+                <!-- Kategori Ujian (FOR dan ID sudah disamakan) -->
+                <label for="kategori">Pilih Kategori Ujian:</label>
+                <select id="kategori" name="kategori" required>
+                    <option value="">--Pilih Kategori--</option>
+                    <option value="saintek">Saintek</option>
+                    <option value="soshum">Soshum</option>
+                    <option value="campuran">Campuran</option>
+                </select>
+                <br><br>
+
+                <input type="submit" value="Daftar Sekarang">
+            </form>
+                  
+        </section>
+    </main>
+
     <hr>
-</header>
+    <footer>
+        <p>&copy; 2026 Portal Simulasi SNPMB. All rights reserved.</p>
+    </footer>
 
-<main> 
-    <section>
-        <h2>form data peserta</h2>
-        <p>silahkan isi data diri kalian di bawah ini dengan benar.</p>
-    <form action="/daftar" method="post">
-        <label for="nama lengkap">nama lengkap</label>
-        <br>
-        <input type="text" id="nama lengkap" name="nama lengkap" placeholder="rafie  armansyah" required>
-        <br><br>
-
-        <label for="tglahir">tanggal lahir:</label>
-        <br>
-        <input type="date" id="tglahir" name="tglahir" required>
-        <br><br>
-        <input type="submit" value="daftar">
-    </form>
-              
-    </section>
-</main>
-
-<hr>
-<footer>
-    <p>&copy; 2023 Portal Simulasi SNPMB 2026. All rights reserved.</p>
-</footer>
-
-</body>
+</body> <!-- TUTUP BODY DI SINI -->
 </html>
