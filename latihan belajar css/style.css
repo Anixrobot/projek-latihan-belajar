@@ -2,6 +2,7 @@
 body {
     background-color: #1e1e2e; /* Warna gelap ala-ala mode malam */
     color: white; /* Bikin warna teks default jadi putih */
+    font-family: 'Poppins', sans-serif; /* Gunain font Poppins */
 }
 
 /* 2. Ngewarnain judul (Manggil ID) */
