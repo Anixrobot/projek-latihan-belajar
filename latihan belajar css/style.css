@@ -17,9 +17,19 @@ body {
     padding: 10px 20px; /* Ngasih jarak dari teks ke pinggir tombol biar agak gendut */
     cursor: pointer; /* Biar pas mouse diarahin ke tombol, kursornya berubah jadi gambar tangan */
 
-
-
     margin-top: 70px; 
     border-radius: 50px;
 
 } 
+
+.kartu-utama {
+    width: 80%;
+    max-width: 600px;
+    background-color:#2a2a3b;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+
