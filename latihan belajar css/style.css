@@ -1,0 +1,19 @@
+/* 1. Ngubah seluruh background web (Manggil Tag) */
+body {
+    background-color: #1e1e2e; /* Warna gelap ala-ala mode malam */
+    color: white; /* Bikin warna teks default jadi putih */
+}
+
+/* 2. Ngewarnain judul (Manggil ID) */
+#judul-utama {
+    color: #66ff0079; /* Warna kuning ngejreng */
+}
+
+/* 3. Ngedandanin tombol (Manggil Class) */
+.tombol-aksi {
+    background-color: #00ff99; /* Warna ijo neon */
+    color: black; /* Warna teks di dalem tombol */
+    border: none; /* Biar garis pinggir bawaan browser yang jelek itu hilang */
+    padding: 10px 20px; /* Ngasih jarak dari teks ke pinggir tombol biar agak gendut */
+    cursor: pointer; /* Biar pas mouse diarahin ke tombol, kursornya berubah jadi gambar tangan */
+} 
