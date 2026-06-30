@@ -16,4 +16,10 @@ body {
     border: none; /* Biar garis pinggir bawaan browser yang jelek itu hilang */
     padding: 10px 20px; /* Ngasih jarak dari teks ke pinggir tombol biar agak gendut */
     cursor: pointer; /* Biar pas mouse diarahin ke tombol, kursornya berubah jadi gambar tangan */
+
+
+
+    margin-top: 70px; 
+    border-radius: 50px;
+
 } 
