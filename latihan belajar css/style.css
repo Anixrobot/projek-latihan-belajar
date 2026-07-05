@@ -76,3 +76,18 @@ body {
     box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
 }
 
+@media screen and (max-width: 600px) {
+
+    .wadah-guild {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+
+    .kartu-role {
+        width: 100%;
+        text-align:center;
+
+    }
+
+}
