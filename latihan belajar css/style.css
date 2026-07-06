@@ -103,3 +103,15 @@ body {
     border-radius: 10px;
 
 }
+
+.kotak-item {
+    background-color: #ff0055;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
