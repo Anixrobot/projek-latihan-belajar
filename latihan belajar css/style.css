@@ -91,3 +91,15 @@ body {
     }
 
 }
+
+.wadah-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    background-color: #1a1a24;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
