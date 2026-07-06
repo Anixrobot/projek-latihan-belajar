@@ -1,3 +1,84 @@
+/* --- RESET DASAR --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #0f0f13; /* INI YANG BIKIN WEB LU JADI GELAP */
+    color: white;
+}
+
+/* ================= CSS BAGIAN 1: NAVBAR ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a24;
+    padding: 20px 50px;
+    border-bottom: 2px solid #5865F2;
+}
+
+.logo-squad {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+.menu-navigasi a {
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-navigasi a:hover {
+    color: #00ffcc;
+}
+
+/* ================= CSS BAGIAN 2: HERO SECTION ================= */
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #15151e;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    color: #a0a0b0;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+.tombol-klaim {
+    background-color: #00ff99;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tombol-klaim:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #00ff99;
+}
+
+/* ================= CSS BAGIAN 3: FORMASI SQUAD ================= */
 .squad-section {
     padding: 70px 20px;
     background-color: #0f0f13;
@@ -15,9 +96,16 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    max-width: 30%;
-    border: 1px solid #333;
+    max-width: 1000px;
+    margin: auto;
+}
 
+.kartu-role {
+    background-color: #1a1a24;
+    padding: 40px 20px;
+    border-radius: 15px;
+    width: 30%; 
+    border: 1px solid #333;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -29,20 +117,22 @@
 }
 
 .kartu-role p {
-    color: #a0a0ba;
+    color: #a0a0ba; 
     line-height: 1.5;
 }
 
 .kartu-role:hover {
-        background-color: #2a2a3b;
-        transform: translateY(-5px);
-        box-shadow: 0px 10px 20px rgba(0, 225, 153, 0.20);
-        border-color: #00ff99;
+    background-color: #2a2a3b;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 255, 153, 0.20); 
+    border-color: #00ff99;
 }
 
 @media screen and (max-width: 768px) {
     .wadah-guild {
         flex-direction: column;
+    }
+    .kartu-role {
         width: 100%;
     }
 }
