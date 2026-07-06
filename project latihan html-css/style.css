@@ -1,5 +1,5 @@
-.squad-secction {
-    paddining: 70px  20px;
+.squad-section {
+    padding: 70px 20px;
     background-color: #0f0f13;
     text-align: center;
 }
@@ -13,7 +13,7 @@
 .wadah-guild {
     display: flex;
     justify-content: center;
-    align-item: center;
+    align-items: center;
     gap: 30px;
     max-width: 30%;
     border: 1px solid #333;
@@ -31,4 +31,18 @@
 .kartu-role p {
     color: #a0a0ba;
     line-height: 1.5;
+}
+
+.kartu-role:hover {
+        background-color: #2a2a3b;
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 20px rgba(0, 225, 153, 0.20);
+        border-color: #00ff99;
+}
+
+@media screen and (max-width: 768px) {
+    .wadah-guild {
+        flex-direction: column;
+        width: 100%;
+    }
 }
