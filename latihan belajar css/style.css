@@ -115,3 +115,8 @@ body {
     cursor: pointer;
     transition: all 0.2s ease;
 }
+
+.kotak-item:hover {
+    background-color: #ff3377;
+    transform: scale (1.05);
+}
