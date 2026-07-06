@@ -3,3 +3,32 @@
     background-color: #0f0f13;
     text-align: center;
 }
+
+.squad-section h2 {
+    color: #00ffcc;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+}
+
+.wadah-guild {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    gap: 30px;
+    max-width: 30%;
+    border: 1px solid #333;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.kartu-role h3 {
+    color: #00ff99;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.kartu-role p {
+    color: #a0a0ba;
+    line-height: 1.5;
+}
