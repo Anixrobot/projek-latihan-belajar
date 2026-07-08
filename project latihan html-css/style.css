@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: #0f0f13; /* INI YANG BIKIN WEB LU JADI GELAP */
-    color: white;
+    background-color: var(--bg-utama); /* INI YANG BIKIN WEB LU JADI GELAP */
+    color: var(--teks-putih);
 }
 
 /* ================= CSS BAGIAN 1: NAVBAR ================= */
@@ -17,52 +17,52 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a1a24;
+    background-color: var(--bg-kartu);
     padding: 20px 50px;
-    border-bottom: 2px solid #5865F2;
+    border-bottom: 2px solid var(--neon-cyan);
 }
 
 .logo-squad {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #00ffcc;
+    color: var(--neon-cyan);
 }
 
 .menu-navigasi a {
-    color: white;
+    color: var(--teks-putih);
     margin-left: 30px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .menu-navigasi a:hover {
-    color: #00ffcc;
+    color: var(--neon-cyan);
 }
 
 /* ================= CSS BAGIAN 2: HERO SECTION ================= */
 .hero-section {
     text-align: center;
     padding: 100px 20px;
-    background-color: #15151e;
+    background-color: var(--color-utama);
 }
 
 .hero-section h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: var(--teks-putih);
 }
 
 .hero-section p {
     font-size: 1.1rem;
-    color: #a0a0b0;
+    color: var(--teks-pudar);
     max-width: 600px;
     margin: 0 auto 40px auto;
     line-height: 1.6;
 }
 
 .tombol-klaim {
-    background-color: #00ff99;
-    color: #000;
+    background-color: var(--neon-hijau);
+    color: var(--teks-putih);
     font-size: 1.2rem;
     font-weight: bold;
     padding: 15px 40px;
@@ -73,20 +73,20 @@ body {
 }
 
 .tombol-klaim:hover {
-    background-color: #ffffff;
+    background-color: var(--teks-putih);
     transform: scale(1.1);
-    box-shadow: 0px 0px 20px #00ff99;
+    box-shadow: 0px 0px 20px var(--neon-hijau);
 }
 
 /* ================= CSS BAGIAN 3: FORMASI SQUAD ================= */
 .squad-section {
     padding: 70px 20px;
-    background-color: #0f0f13;
+    background-color: var(--bg-utama);
     text-align: center;
 }
 
 .squad-section h2 {
-    color: #00ffcc;
+    color: var(--neon-cyan);
     margin-bottom: 40px;
     font-size: 2.2rem;
 }
@@ -101,31 +101,31 @@ body {
 }
 
 .kartu-role {
-    background-color: #1a1a24;
+    background-color: var(--bg-kartu);
     padding: 40px 20px;
     border-radius: 15px;
     width: 30%; 
-    border: 1px solid #333;
+    border: 1px solid var(--neon-cyan);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .kartu-role h3 {
-    color: #00ff99;
+    color: var(--neon-hijau);
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
 
 .kartu-role p {
-    color: #a0a0ba; 
+    color: var(--teks-pudar);
     line-height: 1.5;
 }
 
 .kartu-role:hover {
-    background-color: #2a2a3b;
+    background-color: var(--bg-kartu);
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px rgba(0, 255, 153, 0.20); 
-    border-color: #00ff99;
+    border-color: var(--neon-hijau);
 }
 
 @media screen and (max-width: 768px) {
@@ -145,11 +145,23 @@ body {
 }
 
 .kartu-item {
-    background-color: #1a1a24;
+    background-color: var(--bg-kartu);
     padding: 20px;
     border-radius: 10px;
 }
 
 .kartu-item:hover {
     transform: scale(1.05);
+}
+
+:root {
+    --bg-utama: #0f0f13;
+    --bg-kartu: #1a1a24;
+    --color-utama: #15151e;
+
+    --neon-cyan: #00ffcc;
+    --neon-hijau: #00ff99;
+
+    --teks-putih: #ffffff;
+    --teks-pudar: #a0a0b0;
 }
