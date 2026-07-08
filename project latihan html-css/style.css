@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: var(--bg-utama); /* INI YANG BIKIN WEB LU JADI GELAP */
+    background-color: var(--bg-utama); 
     color: var(--teks-putih);
 }
 
-/* ================= CSS BAGIAN 1: NAVBAR ================= */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ body {
     color: var(--neon-cyan);
 }
 
-/* ================= CSS BAGIAN 2: HERO SECTION ================= */
+
 .hero-section {
     text-align: center;
     padding: 100px 20px;
@@ -78,7 +78,7 @@ body {
     box-shadow: 0px 0px 20px var(--neon-hijau);
 }
 
-/* ================= CSS BAGIAN 3: FORMASI SQUAD ================= */
+
 .squad-section {
     padding: 70px 20px;
     background-color: var(--bg-utama);
@@ -164,4 +164,26 @@ body {
 
     --teks-putih: #ffffff;
     --teks-pudar: #a0a0b0;
+}
+
+@keyframes efekNapas {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 5px #00ff99;
+
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 25px #00ff99;
+
+    }
+
+    100% { 
+        transform: scale(1);
+        box-shadow: 0px 0px 5px #00ff99;
+    }
+}
+
+.tombol-klaim {
+    animation: efekNapas 2s infinite ease-in-out;
 }
