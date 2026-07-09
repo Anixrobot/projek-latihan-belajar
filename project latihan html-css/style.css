@@ -9,7 +9,7 @@
 
 body {
     background-color: var(--bg-utama); 
-    color: var(--teks-putih);
+    color: var(--teks-utama);
 }
 
 
@@ -29,7 +29,7 @@ body {
 }
 
 .menu-navigasi a {
-    color: var(--teks-putih);
+    color: var(--teks-utama);
     margin-left: 30px;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -49,7 +49,7 @@ body {
 .hero-section h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: var(--teks-putih);
+    color: var(--teks-utama);
 }
 
 .hero-section p {
@@ -62,7 +62,7 @@ body {
 
 .tombol-klaim {
     background-color: var(--neon-hijau);
-    color: var(--teks-putih);
+    color: var(--teks-utama);
     font-size: 1.2rem;
     font-weight: bold;
     padding: 15px 40px;
@@ -73,7 +73,7 @@ body {
 }
 
 .tombol-klaim:hover {
-    background-color: var(--teks-putih);
+    background-color: var(--teks-utama);
     transform: scale(1.1);
     box-shadow: 0px 0px 20px var(--neon-hijau);
 }
@@ -162,9 +162,20 @@ body {
     --neon-cyan: #00ffcc;
     --neon-hijau: #00ff99;
 
-    --teks-putih: #ffffff;
+    --teks-utama: #ffffff;
     --teks-pudar: #a0a0b0;
 }
+
+.mode-terang {
+    --bg-utama: #f4f4f9;
+    --bg-kartu: #ffffff;
+    --color-utama: #e0e0e0e;
+
+    --teks-utama: #1a1a24;
+    --teks-pudar: #555566;
+    
+}
+
 
 @keyframes efekNapas {
     0% {
