@@ -20,6 +20,10 @@ body {
     background-color: var(--bg-kartu);
     padding: 20px 50px;
     border-bottom: 2px solid var(--neon-cyan);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo-squad {
@@ -198,3 +202,4 @@ body {
 .tombol-klaim {
     animation: efekNapas 2s infinite ease-in-out;
 }
+
