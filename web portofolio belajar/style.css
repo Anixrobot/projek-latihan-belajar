@@ -1,0 +1,26 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --bg-utama: #0a0a0c;
+    --bg-kartu: #16161c;
+    --aksen-merah: #e63946;
+    --aksen-emas: #f4a261;
+
+    --teks-utama: #ffffff;
+    --teks-pudar: #8a8a9d;
+
+}
+
+
