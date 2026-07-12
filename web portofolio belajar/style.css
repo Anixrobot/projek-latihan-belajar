@@ -23,4 +23,9 @@ html {
 
 }
 
+body {
+    background-color: var(--bg-utama);
+    color: var(--teks-utama);
+    line-height: 1.6;
 
+}
