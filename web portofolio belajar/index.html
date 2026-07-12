@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>website portofolio belajar gw</title>
-        <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio Rafie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body> <!-- FIXED 1: Tag body dipasang di tempat yang bener -->
 
-
-    </head>
-
-        <nav class="navbar">
-        <idv class="logo-squad">Rafie armansyah</idv>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <div class="logo-squad">Rafie Armansyah</div> <!-- FIXED 2: Typo <idv> udah diganti <div> -->
         <div class="menu-navigasi">
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">skill</a>
-            <a href="#">project</a>
-            <a href="#">contact</a>
+            <!-- Link di bawah ini dikasih tanda pagar (#) agar bisa lompat ke id section masing-masing -->
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#skill">skill</a>
+            <a href="#project">project</a>
+            <a href="#contact">contact</a>
         </div>
-        </nav>
+    </nav>
 
-        <header class="hero-section">
-            <h1>selamat dateng di website portofolio</h1>
-            <p>rafie armansyah</p>
+
+    <header id="home" class="hero-section">
+        <h1>Selamat Datang di Website Portofolio</h1>
+        <p>Rafie Armansyah | Frontend Developer</p>
+    </header>
+
+
+    <section id="about" class="squad-section">
+        <h2>About Me</h2>
+        <p>Tulis cerita asal karir lu di sini bos. Misal: Mulai belajar coding dari tahun 2026, tertarik di dunia desain web visual, dll.</p>
+    </section>
+
+
+    <section id="skill" class="squad-section">
+        <h2>My Skills</h2>
+        
+
+        <div class="katalog-grid">
             
-        </header>
-
-        <section class="katalog-grid">
+            <!-- Kartu 1 -->
             <div class="kartu-item">
-                <div class="badge-web">web developer</div>
-                <h3>html-css-java</h3>
-                <p>berpengalaman di bidang web developer</p>
+                <div class="badge-web">Web Developer</div>
+                <h3>HTML & CSS</h3>
+                <p>Berpengalaman di bidang pembuatan layout dan slicing web visual bergaya gaming.</p>
+            </div> 
+            
 
             <div class="kartu-item">
-                    <div class="badge-web">fullstack developer</div>
-                    <h3>frontend-backend</h3>
-                    <p>berpengalaman di bidang fullstack developer</p>
+                <div class="badge-web">Programming</div>
+                <h3>JavaScript</h3>
+                <p>Menguasai logika dasar pembuatan interaksi web seperti fitur dark/light mode.</p>
             </div>
-                
-                
+            
         </div>
-            </div>
-        </section>
+    </section>
 
 
-<body
+    <section id="project" class="squad-section">
+        <h2>My Projects</h2>
+        <p>Di sini nanti lu bisa majang project web "Markas Besae" yang lu buat kemaren bos!</p>
+
+    </section>
+
+
+    <section id="contact" class="squad-section">
+        <h2>Contact</h2>
+        <p>Hubungi gw di: rafie@email.com atau akun Discord lu.</p>
+    </section>
+
+</body>
 </html>
