@@ -52,15 +52,14 @@ body {
 
 }
 
-.menu-navigasi:hover {
-    color: var(--aksen-merah);
-    
-}
-
 
 .menu-navigasi a {
     color: var(--teks-utama);
     margin-left: 30px;
+}
+
+.menu-navigasi a:hover {
+    color: var(--aksen-merah);
 }
 
 .hero-section {
