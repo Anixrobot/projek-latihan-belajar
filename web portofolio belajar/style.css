@@ -44,4 +44,9 @@ body {
     z-index: 100;
 }
 
+.logo-squad {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--aksen-emas);
 
+}
