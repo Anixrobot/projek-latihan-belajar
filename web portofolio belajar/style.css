@@ -17,6 +17,8 @@ html {
     --bg-kartu: #16161c;
     --aksen-merah: #e63946;
     --aksen-emas: #f4a261;
+    --aksen-neoncyan: #00ffcc;
+
 
     --teks-utama: #ffffff;
     --teks-pudar: #8a8a9d;
@@ -29,3 +31,17 @@ body {
     line-height: 1.6;
 
 }
+
+.navbar {
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    background-color: var(--bg-kartu);
+    padding: 20px 50 px;
+    border-bottom: 2px solid var(--aksen-neoncyan);
+
+    top: 0;
+    z-index: 100;
+}
+
+
