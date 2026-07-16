@@ -34,11 +34,12 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--bg-kartu);
-    padding: 20px 50 px;
+    padding: 20px 50px;
     border-bottom: 2px solid var(--aksen-neoncyan);
+    position: sticky;
 
     top: 0;
     z-index: 100;
@@ -50,6 +51,12 @@ body {
     color: var(--aksen-emas);
 
 }
+
+.menu-navigasi:hover {
+    color: var(--aksen-merah);
+    
+}
+
 
 .menu-navigasi a {
     color: var(--teks-utama);
