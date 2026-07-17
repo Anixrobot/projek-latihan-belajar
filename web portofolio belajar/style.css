@@ -67,3 +67,11 @@ body {
     padding: 120px;
     
 }
+
+.squad-section {
+    padding: 100px 20px;
+    background-color: var(--teks-utama);
+    text-align: center;
+
+}
+
