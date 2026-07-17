@@ -96,3 +96,13 @@ body {
     position: relative;
 }
 
+.badge-web {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--aksen-merah);
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
