@@ -127,3 +127,10 @@ body {
     box-shadow: 0px 10px 20px rgba(244, 162, 97,0.2);
     border-color: var(--aksen-neoncyan);
 }
+
+.kartu-project {
+    background-color: var(--bg-utama);
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
