@@ -86,3 +86,13 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
 }
+
+.kartu-item {
+    background-color: var(--bg-utama);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
