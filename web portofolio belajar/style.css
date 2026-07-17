@@ -106,3 +106,10 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
 }
+
+
+.kartu-item:hover {
+    transform: scale(-10px);
+    box-shadow: 0px 10px 20px rgba(244, 162, 97,0.2);
+    border-color: var(--aksen-neoncyan);
+}
