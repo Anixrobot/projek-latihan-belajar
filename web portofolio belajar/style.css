@@ -225,3 +225,19 @@ body {
     border-color: var(--teks-utama);
     background-color: #222;
 }
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+
+    }
+
+    .menu-navigasi {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.9rem;
+    }
+}
