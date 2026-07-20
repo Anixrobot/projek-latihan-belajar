@@ -240,4 +240,14 @@ body {
         margin-right: 10px;
         font-size: 0.9rem;
     }
+
+
+    .hero-section {
+        padding: 60px 20px;
+    }
+
+    .squad-section {
+        padding: 60px 20px;
+        
+    }
 }
