@@ -1,0 +1,1 @@
+console.log("Mesin JavaScript berhasil menyala, Bos! Siap menerima logika!");
