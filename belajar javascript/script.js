@@ -2,8 +2,6 @@ console.log("Mesin JavaScript berhasil menyala, Bos! Siap menerima logika!");
 
 const teksJudul = document.getElementById("judul");
 const teksDeskripsi = document.getElementById("deskripsi");
-
-
 const tombolSakti = document.getElementById("tombol-aksi"); 
 
 tombolSakti.addEventListener("click", function() {
