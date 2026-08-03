@@ -4,10 +4,18 @@ const teksJudul = document.getElementById("judul");
 const teksDeskripsi = document.getElementById("deskripsi");
 const tombolSakti = document.getElementById("tombol-aksi");
 
+
+
+const teksCounter = document.getElementById("teks-counter");
+
 let mesinNyala =false;
 
+let jumlahKlik = 0;
+
 tombolSakti.addEventListener("click", function() {
-    
+
+    jumlahKlik = jumlahKlik + 1;
+    teksCounter.innerText = `Tombol diklik: ${jumlahKlik} kali`;
 
     if (mesinNyala == false) {
         teksJudul.innerText = "sistem Berhasil Aktif🔥";
